@@ -214,4 +214,4 @@ See the [CONTRIBUTING](https://github.com/CanCanCommunity/cancancan/blob/develop
 
 ## Special Thanks
 
-CanCan was inspired by [declarative_authorization](https://github.com/stffn/declarative_authorization/) and [aegis](https://github.com/makandra/aegis). Also many thanks to the [CanCan contributors](https://github.com/CanCanCommunity/cancancan/contributors). See the [CHANGELOG](https://github.com/CanCanCommunity/cancancan/blob/master/CHANGELOG.rdoc) for the full list.
+CanCan was inspired by [declarative_authorization](https://github.com/stffn/declarative_authorization/) and [aegis](https://github.com/makandra/aegis). Also many thanks to the [CanCan contributors](https://github.com/CanCanCommunity/cancancan/contributors). See the [CHANGELOG](https://github.com/CanCanCommunity/cancancan/blob/develop/CHANGELOG.rdoc) for the full list.
