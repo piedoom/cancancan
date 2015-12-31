@@ -11,7 +11,7 @@
 
 I made this fork to update uses of `before_filter` to `before_action`, as the former is being removed as of Rails 5.0.  To use my github repository, add this to your gemfile: 
 
-`gem 'cancancan', github: 'piedoom/cancancan', branch: 'rails5.0'`
+    gem 'cancancan', github: 'piedoom/cancancan', branch: 'rails5.0'
 
 ##Cancan
 
