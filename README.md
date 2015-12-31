@@ -7,9 +7,17 @@
 
 [Wiki](https://github.com/CanCanCommunity/cancancan/wiki) | [RDocs](http://rdoc.info/projects/CanCanCommunity/cancancan) | [Screencast](http://railscasts.com/episodes/192-authorization-with-cancan) | [IRC: #cancancan (freenode)](http://webchat.freenode.net/?channels=cancancan)
 
+## piedoom Rails 5 fork
+
+I made this fork to update uses of `before_filter` to `before_action`, as the former is being removed as of Rails 5.0.  To use my github repository, add this to your gemfile: 
+
+`gem 'cancancan', github: 'piedoom/cancancan', branch: 'rails5.0'`
+
+##Cancan
+
 CanCan is an authorization library for Ruby on Rails which restricts what resources a given user is allowed to access. All permissions are defined in a single location (the `Ability` class) and not duplicated across controllers, views, and database queries.
 
-## This is the master branch!
+## This is the Rails 5/Master branch!
 This branch represents work towards version 2.0. Please checkout the 1.x branch for the stable release. Use master at your own risk.
 
 ## Mission
@@ -26,6 +34,10 @@ Any help is greatly appreciated, feel free to submit pull-requests or open issue
 In **Rails 3 and 4**, add this to your Gemfile and run the `bundle install` command.
 
     gem 'cancancan', '~> 1.10'
+    
+For **Rails 5**, add this to your Gemfile and run the `bundle install` command.
+
+    gem 'cancancan', github: 'piedoom/cancancan', branch: 'rails5.0'
 
 ## Getting Started
 
